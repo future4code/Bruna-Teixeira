@@ -1,0 +1,32 @@
+.menu {
+    background: #000066;
+    color: #ebebeb;
+    padding: 16px;
+    border:0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+.menu:active {
+    color: white;
+}
+
+.menu:hover {
+    color: white;
+}
+
+#nome-lojao {
+    color: yellow;
+}
+
+#nome-line {
+    color: #f1b54e;
+}
+
+.boas-vindas {
+    display: inline-block;
+    background-color: #9c9c9c;
+    font-family: arial;
+    padding: 100px;
+    margin: 0px;
+}
