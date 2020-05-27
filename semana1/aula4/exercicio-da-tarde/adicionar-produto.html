@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina-inicial.css">
     <link rel="stylesheet" href="adicionar-produto.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Produtos</h1>
-    <a href="pagina-inicial.html">Voltar para o início</a>
-    <br><br>
-    <h2>Adicionar produto</h2>
-    <br>
-    <form action="#">
-        <input type="file" name="arquivos">
+
+
+    <nav class="menu">
+        <ul>
+            <li> <b>
+                    <a href="pagina-inicial.html">
+                        <span id="nome-lojao">LOJÃO</span><span id="nome-line">line</span>
+                    </a>
+                </b> </li>
+            <li><a href="funcionarios.html">Funcionários</a></li>
+            <li><a href="adicionar-produto.html">Produtos</a></li>
+            <li><a href="controle-de-estoque.html">Estoque</a></li>
+            <li id="sair"><a href="">Sair</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1>Produtos</h1>
+        <a href="pagina-inicial.html">Voltar para o início</a>
         <br><br>
-        <label for="descricao">Descrição do produto</label>
-        <input type="text" name="descrição" id="descricao">
-        <br><br>
-        <label for="preco">Preço de venda</label>
-        <input type="text" name="preço" id="preco">
-        <br><br>
-        <label for="quantidade">Quantidade</label>
-        <input type="text" name="quantidade" id="quantidade">
-        <br><br><br>
-    <button type="submit">Adicionar</button>
-    </form>
+        <h2>Adicionar produto</h2>
+        <br>
+        <form action="#">
+            <input type="file" name="arquivos">
+            <br><br>
+            <label for="descricao">Descrição do produto</label>
+            <input type="text" name="descrição" id="descricao">
+            <br><br>
+            <label for="preco">Preço de venda</label>
+            <input type="text" name="preço" id="preco">
+            <br><br>
+            <label for="quantidade">Quantidade</label>
+            <input type="text" name="quantidade" id="quantidade">
+            <br><br><br>
+            <button type="submit">Adicionar</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>LOJÃOnline: empresa do Grupo do-JÃO</p>
+    </div>
+
 </body>
+
 </html>
 
 
-     <!--Essa página deve conter um formulário para adicionar produtos. Ele deve ter os mesmos campos que aparecem no controle de estoque. -->
+<!--Essa página deve conter um formulário para adicionar produtos. Ele deve ter os mesmos campos que aparecem no controle de estoque. -->

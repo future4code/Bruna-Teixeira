@@ -1,0 +1,8 @@
+.content {
+    color: hsl(240, 100%, 20%);
+    font-family: arial; 
+    font-size: 16px;
+    margin-left: 56px;
+    list-style-type: none;
+    overflow: hidden;
+}

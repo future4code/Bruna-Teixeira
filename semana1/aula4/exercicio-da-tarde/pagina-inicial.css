@@ -1,32 +1,88 @@
+* { margin: 0; padding: 0; }
+
 .menu {
-    background: #000066;
-    color: #ebebeb;
-    padding: 16px;
-    border:0px;
-    margin: 0px;
-    font-family: arial;
+    background-color: hsl(240, 100%, 20%);
+    font-family: arial; 
+    position: sticky;
+    top: 0;
 }
 
-.menu:active {
-    color: white;
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-.menu:hover {
-    color: white;
+.menu span {
+    display: inline-block;
+    float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+#sair {
+    float: right;   
+}
+
+.menu li a:hover {
+    background-color: rgb(58, 58, 158);
+}
+
+.menu li a:active {
+    background-color: rgb(58, 58, 158);
+}
+
+.menu a {
+    color: #b7c8d2;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+}
+
+.menu span {
+    text-decoration: none;
+    display: inline-block;
 }
 
 #nome-lojao {
     color: yellow;
+    margin-left: 32px;
 }
 
 #nome-line {
     color: #f1b54e;
+    margin-right: 32px;
 }
 
 .boas-vindas {
-    display: inline-block;
-    background-color: #9c9c9c;
+    display: flexbox;
+    background-color: #c7c7c7;
+    color: rgb(90, 90, 90);
     font-family: arial;
-    padding: 100px;
-    margin: 0px;
+    text-align: center;
+    padding: 64px;
+    margin: 80px;
+}
+
+
+.footer {
+    display: block;
+    background-color: rgb(150, 150, 150);
+    color: white;
+    font-family: arial;
+    font-size: 10px;
+    margin-top: 64px;
+    padding: 24px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;   
 }
