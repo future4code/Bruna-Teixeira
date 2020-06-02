@@ -1,0 +1,31 @@
+EX2
+
+
+a. O que é `array` e como se declara em `JS`?
+Arrays são maneiras de se guardar e acessar mais de uma informação ao mesmo tempo
+
+
+
+
+b. Qual o index inicial de um `array`?
+Index inicial 0
+
+
+
+c. Como se determinar o tamanho do `array`?
+.length
+
+
+
+
+d. Indique todas as mensagens impressas no console.
+imagem do console na pasta junto com este arquivo.
+
+ex2.js:2 I.  undefined
+ex2.js:5 II.  null
+ex2.js:9 III.  11
+ex2.js:12 IV.  3  e  4
+ex2.js:16 V.  19  e  9
+ex2.js:20 VI.  3
+ex2.js:25 VII.  1
+ex2.html:41 Live reload enabled. 
