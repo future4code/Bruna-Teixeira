@@ -1,0 +1,48 @@
+
+
+Exercícios de interpretação de código
+
+
+
+1 - O código faz uma caixinha onde o usuário digita um número que passa por uma análise se o número passou no teste ou não.
+Realiza o teste se o número que o usuário colocou dividido por 2 terá o resto da divisão o número igual a 0.
+
+Para números divididos por 2 com o resto igual a ao número 0, ele imprime no console "Passou no teste"
+Para números divididos por 2 com o resto diferente do número 0, ele imprime no console "Não passou no teste"
+
+
+
+2 - 
+
+a) Para saber o preço de cada fruta
+
+b) O preço da fruta Maçã é R$ 2.25
+
+c) Total = 24.55
+2 laranjas = 2x 3.5 = 7.0
+1 maçã = 1x 2.25 = 2.25
+3 bananas = 3x 5 = 15.0
+1 uva = 1x 0.30 = 0.30
+
+d) O preço da Pêra mudaria de 5.5 para 5, porque pegaria o preço do default e daria a seguinte mensagem no console:
+O preço da fruta  Pêra  é  R$  5
+
+
+
+3 - Dará erro, pois "mensagem" não foi definido dentro do if como "console.log"
+Quando se trata de um bloco o "console.log" tem que ir dentro dele.
+
+Exemplo: 
+
+
+const numero1 = prompt("Digite o primeiro número.")
+const numero2 = prompt("Digite o próximo número?")
+
+if(numero1 > 0 && numero2 > 0) {
+  let mensagem
+  if(numero1 > numero2) {
+    console.log("Número 1 é maior que o 2!") 
+  } else {
+    console.log("Número 1 é menor ou igual ao 2!") 
+  }
+}
