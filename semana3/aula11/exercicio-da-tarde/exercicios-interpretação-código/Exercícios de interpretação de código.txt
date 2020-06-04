@@ -1,0 +1,36 @@
+
+
+Exercícios de interpretação de código
+
+
+
+1 - O código está somando i índice ao próximo índice e vai usar o índice até ele ser menor que 15. 
+Ou seja, ele está fazendo 0+1+2+3+4+5+6+7+8+9+10+11+12+13+14 = 105
+
+O resultado impresso é 105
+
+
+
+2 - 
+
+a) .push adiciona itens no array
+
+b) valor impresso no console:  (4) [10, 15, 25, 30]
+
+c) 
+numero = 3
+valor impresso no console: (6) [12, 15, 18, 21, 27, 30]
+
+numero = 4
+valor impresso no console:  [12]
+
+
+
+
+Desafio 
+
+Resposta:
+0
+00
+000
+0000
