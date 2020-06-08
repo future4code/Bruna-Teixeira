@@ -1,0 +1,26 @@
+
+
+Exercícios de interpretação de código
+
+
+
+1 - 
+a) vazio
+b) (6) [0, 1, 0, 1, 2, 3]
+c) (12) [0, 1, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5]
+
+
+2 - 
+a) 0 2 undefined
+b) Tinha que ter um: return i + " " + nome; para aparecer o índice e o nome no console.
+
+
+
+3 - A função define um array com 2 variáveis de resultado (resultadoA e resultadoB) que fazem gerar um outro array.
+No resultadoA soma o resultado com o elemento do array.
+No resultadoB multiplica o resultado com o elemento do array.
+Ambos são adicionados no arrayFinal.
+
+
+
+
