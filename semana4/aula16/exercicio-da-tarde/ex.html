@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ex.css" type="text/css" rel="stylesheet">
+    <script src="ex.js" defer></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Despesas Pessoais</h1>
+    </header>
+
+    <div class="main"> 
+        <section id="controlador">
+             <h2>Controlador de despesas</h2>
+            <h4>Cadastrar empresa</h4>
+
+            <label for="valor">Valor</label>
+            <input type="number" name="valor" id="valor">
+        
+            <label for="tipo">Tipo</label>
+            <select name="tipo" id="tipo">
+                <option value="casa">Casa</option>
+                <option value="alimentacao">Alimentação</option>
+                <option value="viagem">Viagem</option>
+                <option value="festas">Festas</option>
+                <option value="transporte">Transporte</option>
+            </select>
+
+            <label for="descricao">Descrição</label>
+            <input type="text" name="descricao" id="descricao">
+            <br><br>
+            <button id="inserir" onclick="inserirDespesas();">Cadastrar despesa</button>
+        </section>
+    
+
+        <section id="despesas">
+             <h2>Despesas detalhadas</h2>
+
+            <label for="tipo">Tipo</label>
+            <select name="tipo" id="tipo">
+                <option value="casa">Casa</option>
+                <option value="alimentacao">Alimentação</option>
+                <option value="viagem">Viagem</option>
+                <option value="festas">Festas</option>
+                <option value="transporte">Transporte</option>
+            </select>
+
+                <label for="valormaximo">Valor máximo</label>
+                <input type="number" name="valormaximo" id="valormaximo">
+
+                <label for="valorminimo">Valor mínimo</label>
+                <input type="number" name="valorminimo" id="valorminimo">
+                <br><br>
+                <button onclick="filtrar();">Filtrar</button>
+                <button onclick="limparFiltro();">Limpar filtro</button>
+
+        </section>
+
+
+        <section id="extrato">
+            <h2>Extrato</h2>
+            <h4>Valor total:</h4>
+        </section>
+    </div>
+    <footer>Controle suas despesas</footer>
+</body>
+</html>
